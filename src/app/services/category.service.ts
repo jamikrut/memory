@@ -24,4 +24,11 @@ export class CategoryService {
   removeCategory(categoryId: number): Observable<any> {
     return this.httpClient.delete(`${BASE_API_URL}/${categoryId}`);
   }
+
+  getCategory(categoryId: number): Observable<Category> {
+    return this.httpClient.get<Category>(`${BASE_API_URL}/${categoryId}`)
+
+
+
+  }
 }
