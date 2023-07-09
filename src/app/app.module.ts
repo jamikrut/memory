@@ -11,6 +11,7 @@ import {FormsModule} from "@angular/forms";
 import {FlashCardsComponent} from './features/flash-cards/flash-cards.component';
 import {GamesComponent} from './features/games/games.component';
 import {HttpClientModule} from "@angular/common/http";
+import { FlashCardComponent } from './ui/flash-card/flash-card.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {HttpClientModule} from "@angular/common/http";
     CategoryCardComponent,
     FlashCardsComponent,
     GamesComponent,
+    FlashCardComponent,
   ],
   imports: [
     BrowserModule,
